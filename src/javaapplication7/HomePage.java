@@ -170,7 +170,7 @@ public class HomePage extends javax.swing.JFrame {
 
             },
             new String [] {
-                "PROD_ID", "PROD_NAME", "TYPE", "DESCRIPTION", "QTY_LEFT", "QTY_INI", "PRICE"
+                "PROD_ID", "PROD_NAME", "TYPE", "DESCRIPTION", "QTY_LEFT", "QTY_INI", "PRICE"          //string array
             }
         ) {
             Class[] types = new Class [] {
@@ -190,7 +190,7 @@ public class HomePage extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable1);
 
-        jButton5.setText("Add to Cart");
+        jButton5.setText("Add to Cart");       //if iteam is selected add to cart button get activated
         jButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton5ActionPerformed(evt);
